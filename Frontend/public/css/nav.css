@@ -11,7 +11,7 @@
 }
 .watermark {
     position: fixed;
-    bottom: 200px;  /* Adjust as needed */
+    bottom: 250px;  /* Adjust as needed */
     left: 20px;  /* Adjust as needed */
     right: 0px;   /* Adjust as needed */
     color: rgba(0, 0, 0, 0.1);  /* Light gray color */
@@ -34,7 +34,7 @@
     font-size: 1.8rem;
     color: #3e64ff; /* Bluish color */
     margin: 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
     transition: color 0.3s ease; /* Smooth color transition */
 }
@@ -65,5 +65,16 @@
 }
 
 .nav-links2 li a:hover {
-    color: #3e64ff; /* Bluish color on hover */
+    color:rgba(128, 0, 128, 0.5); /* Bluish color on hover */
+}
+
+.drawNav li a:hover{
+    color:rgba(128, 0, 128, 0.5);
+    font-style: italic;
+}
+.drawNav li a{
+    font-weight: 500;
+    /* color:rgba(128, 0, 128, 0.8); */
+    color:black;
+    font-size:large;
 }
